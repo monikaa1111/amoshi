@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.waibian{
+				background-color: pink;
+				width: 500px;
+				height: 500px;
+				position: relative;
+				top: 100px;
+				left:500px ;
+			}
+			h4{
+				font-size: 28px;
+				text-align: center;
+			}
+			.libian{
+				width: 300px;
+				height: 300px;
+				background-color:crimson ;
+				position: absolute;
+				top: 100px;
+				left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="waibian"class="waibian">
+			<h4>找色块</h4>
+			<div id="libian"class="libian"></div>
+		</div>
+		<script type="text/javascript">
+			var waibian=document.getElementById("waibian");
+			var libian=document.getElementById("libian");
+			console.log(Math.random())
+		</script>
+	</body>
+</html>

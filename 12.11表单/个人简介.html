@@ -1,0 +1,102 @@
+p<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人简历</title>
+		<style type="text/css">
+			*
+			{
+				padding:0;
+				margin:0;
+			}
+			form
+			{
+				border: 1px solid pink;
+				width: 420px;
+				height: 650px;
+				background-color: pink;
+				margin: auto;,
+			}
+			p
+			{
+				margin: 20px;
+			}
+			h3
+			{
+				margin-left: 160px;
+			}
+			#q
+			{
+				outline: none;
+			}
+			#i
+			{
+				width: 100px;
+				height: 30px;
+				background-color:hotpink ;
+				outline: none;
+				border: 1px;
+				margin-left: 55px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form>
+			<h3>个人简历</h3>
+			<p>姓名：<input type="text" size="6" id="q"/></p>
+			<p>性别：<input type="radio" name="sex" value="男">男
+				<input type="radio" name="sex" value="女">女</p>
+			<p>出生年月：<input type="date" id="q"></p>
+			<p>民族:<select id="q" style="text-indent: 2px;">
+				<option>汉族</option>
+				<option>回族</option>
+				<option>维吾尔族</option>
+				<option>白族</option>
+				<option>壮族</option>
+				<option>苗族</option>
+				<option>···</option>
+				
+			</select></p>
+			<p>籍贯：
+			<select>
+				<option>陕西省</option>
+				<option>广东省</option>
+				<option>四川省</option>
+				<option>福建省</option>
+				<option>河南省</option>
+				<option>···</option>
+			</select>
+			<select>
+				<option>西安市</option>
+				<option>延安市</option>
+				<option>榆林市</option>
+				<option>宝鸡市</option>
+				<option>渭南市</option>
+				<option>···</option>
+			</select>
+			</p>
+			<p>毕业时间：<input type="date" id="q" style="text-indent: 2px;"></p>
+			<p>学历：<select id="q">
+				<option>小学</option>
+				<option>初中</option>
+				<option>高中</option>
+				<option>中专</option>
+				<option>大专</option>
+				<option>本科</option>
+				<option>研究生</option>
+			</select></p>
+			<p>专业：<input type="text" id="q"></p>
+			<p>求职意向：<input type="text" id="q"></p>
+			<p>联系电话：<input type="tel" id="q"></p>
+			
+			<p>自我评价：
+			<textarea style="width: 300px;height: 70px;resize:none;" id="q"></textarea>
+			</p>
+			<p><input type="submit" value="提交" id="i">
+			<input type="reset" value="重置" id="i"></p>
+		
+			
+		</form>
+	</body>
+</html>

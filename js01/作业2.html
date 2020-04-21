@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.div1{
+			border: 1px solid black;
+			width: 210px;
+			height: 200px;
+			margin: 200px;
+		}	
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+		<input type="text" id="qq" value=""/>
+		<input type="text" id="q1" value=""/>
+		<input type="button" value="登录" id="qq qq1"/>
+		</div>
+		<script type="text/javascript">
+			var Odiv1=document.getElementById("qq");
+			var Odiv2=document.getElementById("q1");
+			var Odiv3=document.getElementById("qq qq1");
+			Odiv3.onclick=function(){
+				if(Odiv1.value==""||Odiv2.value==""){
+				Odiv1.style.borderColor="hotpink";
+				Odiv2.style.borderColor="hotpink";
+				}else{
+					alert("登录成功");
+				}
+			}
+			Odiv3.onblur=function(){
+				Odiv1.style.borderColor="";
+				Odiv2.style.borderColor="";
+			}
+		</script>
+	</body>
+</html>

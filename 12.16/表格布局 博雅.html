@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			table {}
+			
+			.a {
+				width: 100%;
+				height: 60px;
+				background-color: #191D3A;
+			}
+			
+			td {
+				width: 15%;
+			}
+			
+			.lo {
+				border-right: 1px solid #252947;
+				width: 80px;
+				height: 60px;
+				list-style: none;
+				float: left;
+				color: #808080;
+				text-align: center;
+				line-height: 60px;
+				font-size: 14px;
+			}
+			
+			.ops {
+				background-color: #252947;
+				border: 0px;
+			}
+			
+			.c {
+				width: 100px;
+				height: 34px;
+				background-color: mediumseagreen;
+				border-radius: 3px;
+				border: 1px transparent;
+				color: white;
+				margin-top: 13px;
+			}
+			
+			.d {
+				width: 40px;
+				height: 60px;
+				color: green;
+				float: right;
+				line-height: 60px;
+			}
+			
+			.e {
+				color: #808080;
+			}
+			
+			.a1 {
+				width: 100%;
+				height: 460px;
+				background-image: url(img/banner20190828.jpg);
+				background-repeat: no-repeat;
+				background-position: -200px;
+			}
+			
+			.o {
+				width: 100%;
+				height: 298px;
+			}
+			
+			.op {
+				width: 218px;
+				height: 128px;
+				text-align: center;
+			}
+			
+			.ooo {
+				width: 100%;
+				height: 20px;
+				margin-top: 10px;
+				text-align: center;
+			}
+			
+			.pp {
+				border: 5px solid transparent;
+				border-left: 5px solid red;
+				position: absolute;
+				left: 26%;
+				top: 742px;
+			}
+			
+			.pp1 {
+				border: 5px solid transparent;
+				border-left: 5px solid red;
+				position: absolute;
+				left: 44%;
+				top: 741px;
+			}
+			
+			.pp2 {
+				border: 5px solid transparent;
+				border-left: 5px solid red;
+				position: absolute;
+				left: 62%;
+				top: 740px;
+			}
+			
+			.pp3 {
+				border: 5px solid transparent;
+				border-left: 5px solid red;
+				position: absolute;
+				left: 78%;
+				top: 740px;
+			}
+			
+			.no {
+				width: 500px;
+				height: 110px;
+				background-image: url(img/new_bg2.png);
+				background-repeat: no-repeat;
+				background-position: -101px 0px;
+			}
+			
+			.mo {
+				width: 80px;
+				height: 80px;
+				background-image: url(img/news.png);
+				background-repeat: no-repeat;
+				margin-top: 31px;
+			}
+			
+			.h {
+				width: 100px;
+				margin-left: 50px;
+			}
+			
+			.h1h {
+				font-size: 12px;
+				color: grey;
+			}
+			
+			.ppp {
+				width: 500px;
+				height: 205px;
+			}
+			
+			.ml {
+				width: 460px;
+				height: 50px;
+				border-bottom: 1px solid darkgray;
+				margin: auto;
+				list-style: none;
+				line-height: 50px;
+				font-size: 14px;
+			}
+			
+			.lk {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			
+			span {
+				float: right;
+				font-size: 14px;
+				color: #808080;
+			}
+			
+			.mkl {
+				background-image: url(img/byhrbg3.jpg);
+				background-repeat: no-repeat;
+				position: relative;
+				background-color: whitesmoke;
+			}
+			
+			.h2 {
+				width: 200px;
+				margin-left: 72px;
+				margin-top: -112px;
+			}
+			
+			.re {
+				width: 200px;
+				margin-left: 74px;
+				font-size: 12px;
+				color: grey;
+			}
+			
+			.ww {
+				width: 305px;
+				height: 180px;
+				position: absolute;
+				top: 115px;
+				left: 20px;
+			}
+			
+			.mmm1 {
+				width: 305px;
+				height: 38px;
+				border-bottom: 1px solid white;
+				list-style: none;
+				color: white;
+			}
+			
+			.mmm {
+				width: 305px;
+				height: 38px;
+				color: white;
+				list-style: none;
+			}
+			
+			.oi {
+				height: 190px;
+				width: 100%;
+				background-color: #191D3A;
+			}
+			
+			.ppppp {
+				width: 100%;
+				height: 50px;
+				color: #A9A9A9;
+				font-size: 12px;
+				cursor: pointer;
+			}
+			
+			.ppppp1 {
+				width: 40px;
+				height: 40px;
+				background-image: url(img/govIcon.gif);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				position: absolute;
+				left: 66%;
+				top: 165%;
+			}
+			
+			.lo:hover {
+				color: white;
+				cursor: pointer;
+			}
+			
+			.e:hover {
+				color: green;
+				cursor: pointer;
+			}
+			
+			.c:hover {
+				background-color: green;
+			}
+			
+			a {
+				text-decoration: none;
+				color: mediumseagreen;
+				font-size: 14px;
+			}
+			
+			.op:hover {
+				background-color: green;
+			}
+			
+			.zh {
+				width: 218px;
+				height: 60px;
+			}
+			
+			.zh:hover {
+				background-color: green;
+			}
+			
+			.ml:hover {
+				color: #3CB371;
+				cursor: pointer;
+			}
+			
+			.mmm1 {
+				cursor: pointer;
+			}
+			
+			.mmm {
+				cursor: pointer;
+			}
+			
+			.opls {
+				color: white;
+			}
+			
+			.qwe {
+				width: 60px;
+				height: 30px;
+				border-radius: 5px;
+				border: 1px solid green;
+				margin-left: 160px;
+			}
+			
+			.guding {
+				width: 80px;
+				height: 40px;
+				position: fixed;
+				background-color: green;
+				border-radius: 5px;
+				right: 1%;
+				bottom: 10%;
+			}
+			
+			.qos {
+				color: white;
+				font-weight: bold;
+				line-height: 40px;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<table border="0" cellspacing="0">
+			<tr class="a">
+				<td></td>
+				<td><img src="img/logo.png" style="cursor: pointer;"></td>
+				<td>
+					<ul>
+						<li class="lo ops">首页</li>
+						<li class="lo">博雅游戏</li>
+						<li class="lo">博雅新闻</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li class="lo">关于我们</li>
+						<li class="lo">客服中心</li>
+						<li class="lo">投资者关系</li>
+					</ul>
+				</td>
+				<td>
+					<input type="button" value="加入我们" class="c" />
+					<div class="d e">EN</div>
+					<div class="d">中文</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="6" class="a1"></td>
+			</tr>
+			<tr class="o">
+				<td></td>
+				<td><img src="img/cdmjcf.png" class="op">
+					<div class="zh">
+						<h4 style="text-align: center;margin-top: -4px;">成都麻将采访</h3>
+						<div class="ooo"><a href="#" class="ooo">点击播放</a></div>
+						<div class="pp"></div>
+					</div>
+				</td>
+				<td>
+					<img src="img/cdmjgyshg.png" class="op">
+					<div class="zh">
+						<h4 style="text-align: center;margin-top: -4px;">成都麻将公益赛回顾</h3>
+						<div class="ooo"><a href="#">点击播放</a></div>
+						<div class="pp1"></div>
+					</div>
+				</td>
+				<td>
+					<img src="img/bygy.jpg" class="op">
+					<div class="zh">
+						<h4 style="text-align: center;margin-top: -4px;">博雅公益</h3>
+						<div class="ooo"><a href="#">点击播放</a></div>
+						<div class="pp2"></div>
+					</div>
+				</td>
+				<td>
+					<img src="img/xq_gys.jpg" class="op">
+					<div class="zh">
+						<h4 style="text-align: center;margin-top: -4px;">“博雅杯”象棋公益赛回顾</h3>
+						<div class="ooo"><a href="#">点击播放</a></div>
+						<div class="pp3"></div>
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2"class="no">
+					<div class="mo">
+					<h2 class="h">博雅新闻</h2>
+					<p class="h h1h">BOYAA NEWS</p>
+					<input type="button"value="MORE"class="qwe">
+					</div>
+					<ul class="ppp">
+						<li class="ml">2019 BPT欧洲赛总决赛完美收官，德国选手逆袭夺冠
+							<span>12&nbsp;/&nbsp;13</span>
+						</li>
+						<li class="ml">2019云南九大高校象棋联赛系列活动预告
+						<span>12&nbsp;/&nbsp;11</span></li>
+						<li class="ml">博雅互动旗下游戏荣获“2019年度绿色应用”
+						<span>12&nbsp;/&nbsp;04</span></li>
+						<li class="ml lk">博雅互动公布2019年第三季度业绩
+全力打造棋牌赛事品牌，第三季度收益环比增加约6.0%，主要游戏ARPPU值实现增长
+						<span>11&nbsp;/&nbsp;28</span></li>
+					</ul>
+				</td>
+				<td colspan="2" class="mkl">
+					<h2 class="h2 opls">社会招聘</h2>
+					<p class="re opls">BOYAA JOBS</p>
+					<ul class="ww">
+					<li class="mmm"><h4>社会招聘岗位：</h4></li>
+						<li class="mmm1">PHP开发工程师</li>
+						<li class="mmm1">C++开发工程师</li>
+						<li class="mmm1">LUA开发工程师</li>
+						<li class="mmm1">大数据开发工程师</li>
+						</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr class="oi">
+				<td></td>
+				<td colspan="5">
+					<p class="ppppp">网站地图 | 免责声明 | 监督举报</p>
+					<p class="ppppp">Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)粤ICP备05062536号</p>
+					<p class="ppppp">网络文化经营许可证：粤网文[2015]1991-405号 | 互联网出版许可证：新出网证（粤）字062号 | 增值电信业务经营许可证：粤B2-20110513
+						<p class=" ppppp1"></p>
+					</p>
+				</td>
+			</tr>
+			<div class="guding">
+				<a href="#" class="qos">&nbsp;&and;TOP</div>
+			</a>
+
+		</table>
+	</body>
+
+</html>

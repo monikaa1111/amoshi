@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.box1{
+				width: 250px;
+				height: 250px;
+				border:1px solid ;
+				perspective: 500px;
+				margin:100px auto;
+			}
+			.box2{
+				width: 250px;
+				height: 250px;
+				position: relative;
+				transform: rotate(0deg);
+				transition:all 2s;
+				/*当一个组合体自己要进行旋转的时候,一定要加上这个属性*/
+				transform-style:preserve-3d ;
+			}
+			.box2 img{
+				width: 250px;
+				height: 250px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.bai{
+				transform: rotateX(90deg)translateZ(125px);
+			}
+			.qian{
+				transform:translateZ(125px);
+			}
+			.box1:hover .box2{
+				transform: rotateX(-90deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<div class="box2">
+				<img src="img/q.jpg" class="bai"/>
+				<img src="img/qq.jpg"class="qian" />
+			</div>
+		</div>
+	</body>
+</html>

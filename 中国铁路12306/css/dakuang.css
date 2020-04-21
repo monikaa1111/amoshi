@@ -1,0 +1,420 @@
+#dakuang{
+	border: 1px solid white ;
+	width: 1500px;
+	height: 2500px;
+}
+#diyihang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height:90px ;
+	float: left;
+}
+#t1{
+	border: 1px solid white;
+	width: 350px;
+	height: 80px;
+	margin-left:120px;
+	float: left;
+}
+#huise
+{
+	border: 1px solid lavender;
+	width: 1000px;
+	height: 40px;
+	margin-top: 20px;
+	float: left;
+	background: lavender;
+	
+}
+#sousuo
+{
+	border: 1px solid lavender;
+	width: 502px;
+	height: 20px;
+	line-height: 38px;
+	margin-left: 70px;
+	float: left;
+}
+#tu2
+{
+	border: 1px solid lavender;
+	width: 100px;
+	height: 25px; 
+	line-height: 68px;
+	float: left;
+}
+#pp
+{
+	border: 1px solid lavender;
+	width: 80px;
+	height: 25px; 
+	margin-top:10px ;
+	float: left;
+	color: blue;
+	
+}
+#deng
+{
+	border: 1px solid lavender;
+	width: 40px;
+	height: 25px; 
+	margin-top:10px ;
+	float: left;
+}
+a
+{
+	color: black;
+
+}
+#sanhang
+{
+	border: 1px solid dodgerblue;
+	width: 1500px;
+	height: 40px;
+	background: dodgerblue;
+	clear: left;
+}
+#shouye
+{
+	border: 1px solid dodgerblue;
+	width: 150px;
+	height: 39px; 
+	float: left;
+	margin-left: 150px;
+	background: dodgerblue;
+}
+#oo
+{
+	border: 1px solid dodgerblue;
+	width: 40px;
+	height: 20px; 
+	float: left;
+	margin-top:9px ;
+	margin-left: 55px;
+	background: dodgerblue;
+	color: white;
+	font-size: 16px;
+}
+#che
+{
+	border: 1px solid dodgerblue;
+	width: 150px;
+	height: 39px; 
+	float: left;
+}
+#mm
+{
+	border: 1px solid dodgerblue;
+	width: 80px;
+	height: 20px; 
+	float: left;
+	margin-top:9px ;
+	margin-left: 55px;
+	color: white;
+	font-size: 16px;
+}
+#disihang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height: 450px;
+	float: left;
+}
+#oa
+{
+	border: 1px solid white;
+	width: 950px;
+	height: 440px;
+	float: left;
+	margin-left: 5px;
+}
+	
+
+#bi
+{
+	border: 1px solid lavender;
+	width: 500px;
+	height:330px;
+	float: left;
+	margin-top:50px ;
+	float:left;
+	background-color:lavender;
+	
+}
+#di
+{
+	border:1px solid lavender;
+	width: 335px;
+	height: 330px;
+	float:right;
+}
+#ai
+{
+	border-bottom: 1px solid papayawhip;
+	width: 150px;
+	height: 110px;
+	line-height: 110px;
+
+}
+#ci
+{
+	border-bottom: 1px solid papayawhip;
+	width: 150px;
+	height: 110px;
+	background:dodgerblue ;
+	line-height: 110px;
+
+}
+#vi
+{
+	border: 1px solid lavender;
+	width: 50px;
+	height: 20px;
+	margin-top:30px ;
+	color: deepskyblue;
+	float:left;
+	margin-left: 35px;
+}
+#ax
+{
+	border: 1px solid lavender;
+	width: 50px;
+	height: 20px;
+	margin-top:30px ;
+		float:left;
+}
+#ac
+{
+	border: 1px solid lavender;
+	width: 90px;
+	height: 20px;
+	margin-top:30px ;
+	float:left;
+}
+#ap
+{
+	border: 1px solid lavender;
+	width: 70px;
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	margin-top:30px ;
+	
+}
+#lo
+{
+	border: 1px solid lavender;
+	width: 200px;
+	height: 20px;
+	float: left;
+	margin-top:30px ;
+}
+#di0
+{
+	
+	border:1px solid lavender;
+	width: 200px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 80px;
+	float: left;
+
+}
+#diwuhang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height: 160px;
+	clear: left;
+	float: left;
+	margin-top: 40px;
+}
+#kong
+{
+	border: 1px solid white;
+	width: 180px;
+	height: 55px;
+	float: left;
+}
+#tp1
+{
+	border: 1px solid white;
+	width: 160px;
+	height: 55px;
+	float: left;
+}
+#tp2
+{
+	border: 1px solid white;
+	width: 150px;
+	height: 55px;
+	float: left;	
+	padding-left: 10px;
+
+}
+#tp3
+{
+	border: 1px solid white;
+	width: 160px;
+	height: 55px;
+	float: left;
+}
+#diliuhang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height: 450px;
+	float: left;
+	margin-left: 5px;
+	
+}
+#diqihang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height: 50px;
+	float: left;
+}
+#zier
+{
+	border: 1px solid white;
+	width: 1400px;
+	height: 20px;
+	margin-left: 5px;
+	font-size: 20px;
+	color: dodgerblue;
+	float: left;
+}
+#gengduo
+{
+	border: 1px solid white;
+	width: 80px;
+	height: 20px;
+	float: left;
+	font-size: 20px;
+}
+#shuipin
+{
+	border: 1px solid white;
+	width: 90px;
+	height: 10px;
+	margin-left: 5px;
+	margin-top: 3px;
+	float: left;
+}
+#shuipin2
+{
+	border: 1px solid white ;
+	width: 1367px;
+	height: 10px;
+	float: left;
+	margin-top:3px ;
+}
+#dibahang
+{
+	border: 1px solid white;
+	width: 1460px;
+	height: 630px;
+	clear: float;
+	float: left;
+	margin-left: 12px;
+}
+#zao
+{
+	border:1px solid lavender;
+	width: 350px;
+	height: 290px;
+	float: left;
+	margin-top: 10px;
+	margin-left:10px ;
+}
+#qweq
+{
+	border: 1px solid white;
+	width:340px;
+	height: 20px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+#qian
+{
+	border: 1px solid white;
+	width: 50px;
+	height: 20px;
+	text-decoration: none;
+	margin-left:6px ;
+	margin-top:10px ;
+	color: orange;
+	font-size: 25px;
+	float: left;
+}
+#dijiuhang
+{
+	border: 1px solid white;
+	width: 1460px;
+	height: 50px;
+	float: left;
+	margin-left:18px ;
+}
+#zuixin
+{
+	border: 1px solid white;
+	width: 480px;
+	height: 48px;
+	background-color:dodgerblue ;
+	font-size:24 ;
+	color: white;
+	line-height: 48px;
+	float: left;
+}
+#zuixin1
+{
+	border: 1px solid white;
+	width: 480px;
+	height: 48px;
+	background-color:lavender ;
+	font-size:24 ;
+	color: black;
+	line-height: 48px;
+	float: left;
+}
+#dishihang
+{
+	border: 1px solid lavender;
+	width: 1440px;
+	height: 260px;
+	float: left;
+	margin-left:20px ;
+}
+#kons
+{
+	border: 1px solid white;
+	width: 710px;
+	height: 230px;
+	float: left;
+}
+#ssss
+{
+	border: 1px solid white;
+	width: 710px;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	float: left;
+}
+
+#gengduo
+{
+	border: 1px solid white;
+	widows: 1440;
+	height: 30px;
+	float: right;
+}
+a{
+	text-decoration: none;
+}
+

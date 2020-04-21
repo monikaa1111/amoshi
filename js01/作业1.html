@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			p{
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div">
+			<input type="button" value="放大" id="fangda"/>
+			<input type="button" value="缩小" id="suoxiao"/>
+			<p id="zi">哈哈哈哈哈哈哈憨憨哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+		</div>
+		
+		<script type="text/javascript">
+			var pbiao=document.getElementById("zi");
+			var qq11=document.getElementById("fangda");
+			var qq1=document.getElementById("suoxiao");
+			var now=16;
+			qq11.onclick=function(){
+				now+=2;
+				move();
+			}
+			qq1.onclick=function(){
+				now-=2;
+				move();
+			}
+			function move(){
+				pbiao.style.fontSize=now+'px';
+				pbiao.style.fontSize=now-'px';
+			}
+		</script>
+	</body>
+</html>

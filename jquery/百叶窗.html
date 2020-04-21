@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.box{
+				width: 800px;
+				height: 400px;
+				border: 1px solid black;
+				margin: 100px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			ul li{
+				list-style: none;
+				position: absolute;
+				top: 0;
+			}
+			img{
+				width: 500px;
+				height: 400px;
+			}
+			.n1{left: 0;}
+			.n2{left: 200px;}
+			.n3{left: 400px;}
+			.n4{left: 600px;}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul>
+				<li class="n1">
+					<img src="img/111.jpg" />
+				</li>
+				<li class="n2">
+					<img src="img/1583903831(1).jpg" />
+				</li>
+				<li class="n3">
+					<img src="img/22222.jpg" />
+				</li>
+				<li class="n4">
+					<img src="img/微信图片_20200311131554.jpg" />
+				</li>
+			</ul>
+		</div>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+/*				$(".no0").mouseenter(function(){
+				$("li").stop(true);
+				$(".no1").animate({"left":560},1000)
+				$(".no2").animate({"left":620},1000)
+				$(".no3").animate({"left":680},1000)
+				$(".no4").animate({"left":740},1000)
+			})*/
+			$(".n1").mouseenter(function(){
+				$("li").stop(true);
+				$(".n2").animate({"left":400},1000)
+				$(".n3").animate({"left":500},1000)
+				$(".n4").animate({"left":600},1000)
+			})
+			$(".n2").mouseenter(function(){
+				$("li").stop(true);
+				$(".n2").animate({"left":100},1000)
+				$(".n3").animate({"left":500},1000)
+				$(".n4").animate({"left":600},1000)
+			})
+			$(".n3").mouseenter(function(){
+				$("li").stop(true);
+				$(".n2").animate({"left":100},1000)
+				$(".n3").animate({"left":200},1000)
+				$(".n4").animate({"left":600},1000)
+			})
+			$(".n4").mouseenter(function(){
+				$("li").stop(true);
+				$(".n2").animate({"left":100},1000)
+				$(".n3").animate({"left":200},1000)
+				$(".n4").animate({"left":300},1000)
+			})
+			$(".box").mouseleave(function(){
+				$("li").stop(true);
+				$(".n2").animate({"left":200},1000)
+				$(".n3").animate({"left":400},1000)
+				$(".n4").animate({"left":600},1000)
+			})
+		</script>
+	</body>
+</html>

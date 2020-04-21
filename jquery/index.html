@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				padding:0;
+				margin: 0;
+			}
+			.box{
+				border: 1px solid black;
+				width: 500px;
+				height: 300px;
+				position: relative;
+				top: 100px;
+				left: 200px;
+				
+			}
+			.box1{
+				width: 100px;
+				height:100px;
+				background-color:pink ;
+				margin-left:20px ;
+				margin-top:20px ;
+				float: left;
+			}
+			.box2{
+				width: 100px;
+				height:100px;
+				background-color:pink ;
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+			<div class="box1"></div>
+		</div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+/*			$(".box1").css({
+				"width":700,
+				"background-color":"red",
+			})*/
+/*			$(".box1").animate({"bottom":90}1000,function(){
+				alert("你好");*/
+/*			$(".box2").animate({"left":700},1000,function(){
+				console.log("213");
+		})
+*/
+		//点击事件
+/*		$(".box1:eq(2)").mouseenter(function(){
+			$(this).css("background-color","red").siblings(".box1:eq(1)").css("background-color","yellow")
+			/*$(this).css("background-color","yellow")})*/
+/*		$(".box1:first").animate({"left":700},1000,function(){
+			alert("nihaoya");
+		})*/
+		/*$(".box1:last").css({"background-color":"blue"})*/
+		$(".box1").each(function(i){
+			$(this).animate({"width":30*i},1000)
+		})
+		</script>
+	</body>
+</html>

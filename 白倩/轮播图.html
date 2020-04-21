@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#d1{
+				border: 1px solid black;
+				width: 400px;
+				height: 400px;
+				margin: auto;
+			}
+			#d2{
+				width: 400px;
+				height: 400px;
+				
+			}
+			#d3{
+				width: 400px;
+				height: 400px;
+				
+			}
+			#d4{
+				width: 400px;
+				height: 400px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">
+			<img src="img/0.jpg" id="d2"/>
+		</div>
+		<script type="text/javascript">
+			var Dd2=document.getElementById("d2");
+			var t=1;
+			function au(){
+				t++;
+				if (t>=4) {
+					t=1;
+				} 
+				Dd2.src="img/"+t+".jpg";
+			}
+			setInterval(au,1000);
+		</script>
+	</body>
+</html>

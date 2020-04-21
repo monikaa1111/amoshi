@@ -1,0 +1,66 @@
+`
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+					/*	function jiechen(b){
+							var a=1;
+							for (var i=1;i<=b;i++) {
+								a*= i;
+							}
+							return a;
+						}
+			
+						var sum=0;
+						for (var j=1;j<=10;j++) {
+							sum += jiechen(j);
+						}
+						console.log(sum);*/
+			//第二题
+			/*
+			for(var i=100;i<=1000;i++){
+				var gw=i%10;
+				var sw=i/10%10;
+				var bw=i/100;
+				if (jiechen(gw)+jiechen(sw)+jiechen(bw)==i) {
+					console.log(i);
+				}
+			}*/
+			//第四题
+			function yueshuhe(a) {
+				var con = 0;
+				for(var i = 1; i < a; i++) {
+					
+					if(a % i == 0 ) {
+						con+=i;
+					}
+				}
+				return con;
+			}
+			for(var b=1;b<3000;b++){
+				var aa=yueshuhe(b);
+				if (yueshuhe(aa)==b&&yueshuhe(b)==aa&&aa>b) {
+					console.log(aa+"和"+b);
+				}
+			}
+
+			/*编写一个函数rev用于将一个整数前后倒置。
+			例如rev(12345)将返回54321，rev(123)将返回321
+			整数位数不限制，多少位都行。*/
+/*			function rev(a){
+				var b=0;
+				while(a){
+					b=b*10+a%10;
+					a=parseInt(a/10);
+				}return b;
+			}
+			alert(rev(12345678));*/
+		</script>
+	</body>
+
+</html>

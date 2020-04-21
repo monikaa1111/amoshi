@@ -1,0 +1,190 @@
+#dakuang{
+	border: 1px solid white ;
+	width: 1500px;
+	height: 1000px;
+}
+#diyihang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height:90px ;
+	float: left;
+}
+#t1{
+	border: 1px solid white;
+	width: 350px;
+	height: 80px;
+	margin-left:120px;
+	float: left;
+}
+#huise
+{
+	border: 1px solid lavender;
+	width: 1000px;
+	height: 40px;
+	margin-top: 20px;
+	float: left;
+	background: lavender;
+	
+}
+#sousuo
+{
+	border: 1px solid lavender;
+	width: 502px;
+	height: 20px;
+	line-height: 38px;
+	margin-left: 70px;
+	float: left;
+}
+#tu2
+{
+	border: 1px solid lavender;
+	width: 100px;
+	height: 25px; 
+	line-height: 68px;
+	float: left;
+}
+#pp
+{
+	border: 1px solid lavender;
+	width: 80px;
+	height: 25px; 
+	margin-top:10px ;
+	float: left;
+	color: blue;
+	
+}
+#deng
+{
+	border: 1px solid lavender;
+	width: 40px;
+	height: 25px; 
+	margin-top:10px ;
+	float: left;
+}
+a
+{
+	color: black;
+
+}
+#sanhang
+{
+	border: 1px solid dodgerblue;
+	width: 1500px;
+	height: 40px;
+	background: dodgerblue;
+	clear: left;
+}
+#shouye
+{
+	border: 1px solid dodgerblue;
+	width: 150px;
+	height: 39px; 
+	float: left;
+	margin-left: 150px;
+	background: dodgerblue;
+}
+#oo
+{
+	border: 1px solid dodgerblue;
+	width: 40px;
+	height: 20px; 
+	float: left;
+	margin-top:9px ;
+	margin-left: 55px;
+	background: dodgerblue;
+	color: white;
+	font-size: 16px;
+}
+#che
+{
+	border: 1px solid dodgerblue;
+	width: 150px;
+	height: 39px; 
+	float: left;
+}
+#mm
+{
+	border: 1px solid dodgerblue;
+	width: 80px;
+	height: 20px; 
+	float: left;
+	margin-top:9px ;
+	margin-left: 55px;
+	color: white;
+	font-size: 16px;
+}
+#dds1
+{
+	border: 1px solid white;
+	width: 300px;
+	height: 20px;
+	margin-left: 250px;
+	float: left;
+}
+
+#dds
+{
+	border: 1px solid mediumpurple;
+	width: 1000px;
+	height: 850px;
+	margin-left: 250px;
+	margin-top: 20px;
+	float: left;
+}
+#ks
+{
+	border: 1px solid white;
+	width: 998px;
+	height: 40px;
+	background: lavender;
+	float: left;
+}
+#zhang
+{
+	border: 1px solid lavender;
+	width: 100px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 8px;
+	float: left;
+}
+#yong
+{
+	border: 1px solid white;
+	width: 300px;
+	height: 50px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+#yong1
+{
+	border: 1px solid white;
+	width: 300px;
+	height: 50px;
+	float: left;
+	margin-left: 350px;
+}
+#yong2
+{
+	border: 1px solid white;
+	width: 900px;
+	height: 50px;
+	float: left;
+	margin-left: 350px;
+}
+#yong3
+{
+	border: 1px solid white;
+	width: 400px;
+	height: 40px;
+	float: left;
+	margin-left: 410px;
+	margin-top: 25px;
+}
+a{
+	text-decoration: none;
+}
+
+

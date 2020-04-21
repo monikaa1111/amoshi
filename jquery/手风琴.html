@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.box{
+				width: 500px;
+				height: 200px;
+				border:1px solid black;
+				margin: auto;
+				position: relative;
+				top: 100px;
+			}
+			ul{
+				list-style: none;
+			}
+			ul li h3{
+				height: 50px;
+				background-color: pink;
+				border: 1px solid black;
+			}
+			ul li p{
+				height: 60px;
+				display: none;
+			}
+			.p1{
+				display: block;
+			}
+			.box ul li.a1 h3{
+				background-color:deeppink ;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul>
+				<li class="a1">
+						<div>
+							<h3>第一层</h3>
+							<p class="p1">你好你好你好你好你好你好你好你好你好你好你好你好你好你好</p>
+						</div>
+				</li>
+				<li >
+						<div>
+							<h3 >第一层</h3>
+							<p>你好你好你好你好你好你好你好你好你好你好你好你好你好你好</p>
+						</div>
+				</li>
+				<li >
+						<div>
+							<h3 >第一层</h3>
+							<p>你好你好你好你好你好你好你好你好你好你好你好你好你好你好</p>
+						</div>
+				</li>
+				<li >
+						<div>
+							<h3 >第一层</h3>
+							<p>你好你好你好你好你好你好你好你好你好你好你好你好你好你好</p>
+						</div>
+				</li>
+				
+			</ul>
+		</div>
+		<script src="js/jquery-1.12.3.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			//监听h3
+			$(".box ul li h3").click(function(){
+				$("p").slideUp();			
+				if ($(this).siblings("p").is(":visible")) {
+				$(this).siblings("p").stop(true).slideUp();
+				$(this).parent().removeClass("a1");
+				$(this).addClass("a1")
+			}else{
+				$(".a1").removeClass("a1");
+			/*	$(this).addClass("a1")*/
+				$(this).parent().addClass("a1");
+				$(this).siblings("p").stop(true).slideDown();
+			}
+			})
+/*			if ($(this).siblings(".content").is(":visible")) {
+					//如果自己的兄弟可见
+					//自己的内容兄弟合上，变为不可见，去掉cur样式
+					$(this).siblings(".content").stop(true).slideUp();
+					$(this).parent().removeClass("cur");
+				} else{
+					//反之 自己内容兄弟不可见
+					$(".cur").removeClass("cur");
+					$(this).parent().addClass("cur");
+					$(this).siblings(".content").stop(true).slideDown();
+				}
+			})*/
+
+		</script>
+	</body>
+</html>

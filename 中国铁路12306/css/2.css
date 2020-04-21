@@ -1,0 +1,116 @@
+#dakuang{
+	border: 1px solid white ;
+	width: 1500px;
+	height: 1000px;
+}
+#diyihang
+{
+	border: 1px solid white;
+	width: 1500px;
+	height:90px ;
+	float: left;
+}
+#t1{
+	border: 1px solid white;
+	width: 270px;
+	height: 80px;
+	margin-left:120px;
+	float: left;
+}
+#sd
+{
+	border: 1px solid white;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top:20px;
+	
+}
+#dierhang
+{
+	border: 1px solid lavender;
+	width: 1500px;
+	height: 700px;
+	float: left;
+	background: lavender;
+}
+#kods
+{
+	border: 1px solid lavender;
+	width:800px;
+	height: 700px;
+	float: left;
+	margin-left:30px;
+}
+#koda
+{
+	border: 1px solid lavender;
+	width: 500px;
+	height: 500px;
+	float: left;
+	background: white;
+	margin-top:50px ;
+	margin-left: 100px;
+	background: white;
+}
+#saoma
+{
+	border: 1px solid white;
+	width: 100px;
+	height: 50px;
+	margin-left: 70px;
+	margin-top:40px ;
+	float: left;
+}
+#saoma1
+{
+	border: 1px solid white;
+	width: 10px;
+	height: 50px;
+	margin-left: 70px;
+	margin-top:40px ;
+	float: left;
+	font-size: 20px;
+}
+#wenben
+{
+	border: 1px solid white;
+	width: 410px;
+	height: 25px;
+	margin-left: 45px;
+	margin-top:20px ;
+	float: left;
+}
+#ui
+{
+	border: 1px solid white;
+	width: 410px;
+	height: 150px;
+	margin-left: 45px;
+	margin-top:20px ;
+	float: left;
+}
+#uia
+{
+	border: 1px solid white;
+	width: 410px;
+	height: 50px;
+	margin-left: 45px;
+	margin-top:20px ;
+	float: left;
+}
+#saoma2
+{
+	border: 1px solid white;
+	width: 120px;
+	height: 50px;
+	margin-left: 70px;
+	margin-top:20px ;
+	float: left;
+}
+a
+{
+	text-decoration: none;
+}
+
+

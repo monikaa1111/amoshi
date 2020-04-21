@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a=parseInt(prompt("请输入一个数字"));
+			if (a%5==0&&a%6==0) {
+				alert("这个数字可以被5和6整除");
+			}else if(a%5==0){
+				alert("这个数字可以被5整除，但不能被6整除");
+			}else if(a%6==0){
+				alert("这个数字可以被6整除，但不能被5整除");
+			}else{
+				alert("这个数字既不能被6整除，也不能被5整除");
+			}
+		</script>
+	</body>
+</html>

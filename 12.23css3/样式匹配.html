@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			div[boe="qq"]{
+				width: 50px;
+				height:50px;
+				background-color: red;
+				margin: 10px;
+			}
+			div[boe^="q1"]{
+				width: 50px;
+				height: 50px;
+				background-color: deepskyblue;
+			}
+			div[boe~="q"]{
+				width: 20px;
+				height: 20px;
+				background-color: blueviolet;
+			}
+		</style>
+	</head>
+	<body>
+		<div boe="qq12">12</div>
+		<div boe="q1q111">112</div>
+		<div boe="q1q123">12</div>
+		<div boe=" q q23">12</div>
+		<div boe=" q 11q">12</div>
+	</body>
+</html>

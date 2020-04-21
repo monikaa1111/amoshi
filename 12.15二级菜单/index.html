@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			ul {
+				width: 600px;
+				height: 100px;
+				border: 1px solid;
+				list-style: none;
+				background-color: greenyellow;
+				margin: 20px auto;
+			}
+			
+			ul li {
+				width: 100px;
+				height: 100px;
+				border: 1px solid;
+				float: left;
+				line-height: 100px;
+				text-align: center;
+			}
+			
+			 li a {
+				color: red;
+				text-decoration: none;
+				display: block;
+			}
+			a:hover{
+				background-color: orange;
+				color: cornflowerblue;
+
+			}
+			.n1 {
+				width: 100px;
+				display: none;
+				background-color: cornflowerblue;
+			}
+			
+			li p {
+				line-height: 20px;
+			}
+			
+			ul li:hover .n1 {
+				display: block;
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul>
+			<li>
+				<a href="#">我的淘宝</a>
+				<div class="n1">
+					<p>已买到的宝贝</p>
+					<p>我的足迹</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">收藏夹</a>
+				<div class="n1">
+					<p>收藏的宝贝</p>
+					<p>收藏的店铺</p>
+				</div>
+			</li>
+			<li>
+				<a href="#">商品分类</a>
+			</li>
+			<li>
+				<a href="#">卖家中心</a>
+			</li>
+			<li>
+				<a href="#">联系客服</a>
+			</li>
+		</ul>
+	</body>
+
+</html>

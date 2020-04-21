@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//1
+//			console.log(((123+45*78)/(34+543))-9*(324-34));//-2603.7036395147315
+			//2
+/*			var b=prompt("请输入摄氏度");
+			console.log((9/5)*b+32);*/
+			//3
+//			alert(Math.pow((23+Math.pow(5,7)/45),2));//3094471.9012345676
+			//4
+/*			var a=prompt("请输入六角形的边长");
+			console.log((3*Math.sqrt(3))/2*Math.pow(a,2));*/
+			//5
+			var c=prompt("请输入一个3位数的数字");    
+			var today = parseInt(prompt("请输入今天是星期几","2"));
+			var day = parseInt(prompt("请输入一个任意整数天数","1000"));
+			var future = (today + day) % 7;
+			alert(future);
+		</script>
+	</body>
+</html>

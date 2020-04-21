@@ -1,0 +1,387 @@
+*{
+	padding:0;
+	margin: 0;
+}
+.dyh{
+	width: 100%;
+	height: 78px;
+}
+.logo{
+	width: 310px;
+	height: 78px;
+	float: left;
+	margin-left:110px;
+}
+.box{
+	width: 1188px;
+	height: 78px;
+	list-style: none;
+	cursor: pointer;
+	margin: auto;
+}
+.a{
+	width: 100px;
+	height: 77.6px;
+	background-image:url(../img/nav-on.png);
+	background-repeat:no-repeat;
+	background-position-x:0px ;
+	float: left;
+	margin-left: 70px;
+}
+.b{
+	width: 124px;
+	height: 77.6px;
+	background-image:url(../img/nav.png);
+	background-repeat:no-repeat;
+	background-position-x:-100px ;
+	float: left;
+}
+.c{
+	width: 146px;
+	background-position-x:-222px ;
+}
+.d{
+	background-position-x:-488px ;
+}
+.e{
+	width: 122px;
+	background-position-x:-613px ;
+}
+.b:hover{
+	background-image: url(../img/nav-on.png);
+}
+.dierhang{
+	width: 100%;
+	height: 269px;
+	clear: both;
+	background-color: #D6DAE2;
+}
+.dierhang1{
+	width: 1519px;
+	height: 269px;
+	background-image: url(../img/summit-banner.jpg);
+	background-repeat: no-repeat;
+	background-position-x:-200px ;
+	margin: auto;
+}
+.disanhang{
+	width: 100%;
+	height: 581px;
+	background-color: #D6DAE2;
+}
+.disanhang1{
+	width: 1519px;
+	height: 581px;
+	background-image: url(../img/summit-content.jpg);
+	background-repeat: no-repeat;
+	background-position-x:-200px ;
+	margin: auto;
+	position: relative;
+}
+.tubiao1{
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/spirites.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1%;
+	left: 15%;
+}
+.zi1{
+	color: #32AFFF;
+	font-size: 32px;
+	position: absolute;
+	top: 2%;
+	left: 19%;
+}
+.t2{
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/spirites.png);
+	background-repeat: no-repeat;
+	background-position: -57px 0px;
+	position: absolute;
+	top: 3%;
+	left: 38%;
+}
+.t3{
+	background-position: -121px 0px;
+	position: absolute;
+	top: 3%;
+	left: 58%;
+}
+.t4{
+	background-position: -180px 0px;
+	position: absolute;
+	top: 3%;
+	left: 77%;
+}
+.t5{
+	background-position: 0px -63px;
+	position: absolute;
+	top: 48%;
+	left: 19%;
+}
+.t6{
+	background-position:-55px -63px;
+	position: absolute;
+	top: 48%;
+	left: 38%;
+}
+.t7{
+	background-position: -119px -63px;
+	position: absolute;
+	top: 48%;
+	left: 58%;
+}
+.t8{
+	background-position: -178px -63px;
+	position: absolute;
+	top: 48%;
+	left: 77%;
+}
+.zi2{
+	color: white;
+	font-weight: normal;
+	position: absolute;
+	top: 19%;
+	left:16%;
+	font-size: 20px;
+}
+.zi3{
+	top: 23%;
+	left:17%;
+}
+.zi4{
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	top: 30%;
+	left:18%;
+}
+.zi5{
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	top: 37%;
+	left:15%;
+}
+.zi6{
+	left: 37.5%;
+	top: 20%;
+}
+.zi7{
+	left: 36.5%;
+}
+.zi8{
+	width: 244px;
+	height: 41.6px;
+	color: white;
+	position: absolute;
+	font-size: 14px;
+	left: 32%;
+	top: 36%;
+}
+.zi9{
+	left: 57%;
+}
+.zi0{
+	left: 56.5%;
+}
+.qw{
+	left: 52%;
+}
+.zii{
+	left: 76%;
+}
+.ziii{
+	left: 75.5%;
+}
+.qww{
+	left: 71%;
+}
+.x{
+	top: 63%;
+	left: 18%;
+}
+.xi{
+	left: 18%;
+	top: 73%;
+}
+.xiao{
+	top: 80%;
+	left: 13%;
+}
+.io{
+	top: 63%;
+	left: 37.5%;
+}
+.ioo{
+	top: 73%;
+	left: 36.5%;
+}
+.iooo{
+	top: 80%;
+}
+.lo{
+	top: 63%;
+	left: 57%;
+}
+.loo{
+	top: 73%;
+	left: 56.5%;
+}
+.looo{
+	top: 80%;
+	left: 52%;
+}
+.as{
+	top: 63%;
+	left: 76%;
+}
+.ass{
+	top: 73%;
+	left: 75.5%;
+}
+.asss{
+	top: 80%;
+	left: 71%;
+}
+.bian{
+	width:30% ;
+	border-top:4px solid aqua;
+	float: left;
+}
+.bian1{
+	width:23% ;
+	border-top:4px solid orange;
+	float: left;
+}
+.bian2{
+	width:23% ;
+	border-top:4px solid yellowgreen;
+	float: left;
+}
+
+.oik{
+	width: 62px;
+	height: 62px;
+	background-image: url(../img/bt.png);
+	background-repeat: no-repeat;
+	background-position: -0px 0px;
+	position: absolute;
+	top: 11.5%;
+	left: 11.5%;
+}
+.ok1{
+	left: 31%;
+}
+.ok2{
+	left: 50.5%;
+}
+.ok3{
+	left: 70%;
+}
+.pik{
+	top: 56%;
+}
+.pk1{
+	top: 56%;
+	left: 31%;
+}
+.pk2{
+	top: 56%;
+	left: 50.5%;
+}
+.pk3{
+	top: 56%;
+	left: 70%;
+}
+.oik:hover{
+	background-image: url(../img/bt.png);
+	background-position-x: -72px;
+	cursor: pointer;
+}
+.bian3{
+	width:24% ;
+	border-top:4px solid orangered;
+	float: left;
+}
+.diwuhang{
+	width: 100%;
+	height: 269px;
+}
+.diw{
+	width:1519px ;
+	height: 360px;
+	margin: auto;
+}
+.tupian{
+	width: 900px;
+	height: 294px;
+	margin: auto;
+}
+.ho{
+	width: 790px;
+	height: 30px;
+	margin-top:20px ;
+	font-weight: normal;
+	float: left;
+	font-size: 14px;
+	
+}
+.tupian1{
+	width: 80px;
+	height: 30px;
+	margin:20px;
+
+}
+.ic{
+	width: 105px;
+	height: 294px;
+	float: right;
+}
+.is{
+	width: 80px;
+}
+.klkl{
+	width: 900px;
+	height: 200px;
+}
+.hoa{
+	width: 60px;
+	height: 25px;
+	border:1px solid transparent;
+	margin-left: 20px;
+	font-size: 14px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.diliuhang{
+	width: 100%;
+	height: 140px;
+	clear: both;
+	background-color:darkgray;
+}
+.liu1{
+	width:1519px ;
+	height: 140px;
+	margin: auto;
+}
+.pp{
+	height: 24px ;
+	font-size: 14px;
+	text-align: center;
+	line-height: 101px;
+}
+.ppp{
+	height: 24px ;
+	font-size: 12px;
+	text-align: center;
+	line-height: 100px;
+}
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.qq{
+				width: 200px;
+				height: 200px;
+			}
+			img{
+				width: 190px;
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="qq">
+			<img src="img/111.jpg">
+			<img src="img/1583903831(1).jpg" />
+			<img src="img/22222.jpg" />
+		</div>
+		<script type="text/javascript">
+			var Odiv=document.getElementById("qq");
+		/*	for (var i=0;i<=Odiv.length;i++) {
+				Odiv[i].bai=i;*/
+				Odiv.onmousemover=function(){
+					Odiv.src="img/1583903831(1).jpg";
+				}
+/*				}
+			}*/
+		</script>
+	</body>
+</html>

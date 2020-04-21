@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+//			11111111111111
+/*			var a = (123+45*78)/(34+543)-(9*324-9*34);
+			console.log(a)*/
+/*			22222222222222
+			var a = prompt("请输入摄氏度");
+			alert((9/5)*a+32);*/
+//			33333333333333
+/*			var a = Math.pow((23+Math.pow(5,7)/45),2);
+			console.log(a);*/
+//			44444444444444
+/*			var a = prompt("请输入六边形的边长");
+			alert((3*Math.sqrt(3)/2)*Math.pow(a,2))
+			66666666666666*/
+/*			var b = prompt("请输入一个3位数");
+			var a = b%10;
+			var c = b/10%10;
+			var d = b/100;
+			alert(a+c+d);*/
+//			55555555555555
+/*			在控制台输出1~1000之中，所有能被5整除，或者被6整除的数字。*/
+/*			for (var i=1;i<=1000;i++) {
+				if (i%5==0&&i%6==0) {
+					console.log(i)
+				}
+				
+			}*/
+//			用户输入一个数字n，计算1+2+3+4+……n的和。
+/*			var a=prompt("请输入一个数字");
+			var sum=0;
+			for (var i=1;i<=a;i++) {
+				sum=+i;
+			}
+			console.log(sum);*/
+//			求1! + 2! + 3! + 4! + …… + 10!的和
+//			叹号表示阶乘，如4! = 1 * 2 * 3 * 4
+/*			function jiecheng(a){
+				var s =1;
+				for (var i=1;i<=a;i++) {
+					s*=i;
+				}return s;
+			}*/
+			/*var sum=0;
+			for (var i=1;i<=10;i++) {
+				sum+=jiecheng(i);
+			}console.log(sum);*/
+//			求一个三位数，该三位数等于其每位数字的阶乘之和。
+/*
+			for (var i=100;i<1000;i++) {
+				var gewei=i%10;
+				var shiwei=i/10%10;
+				var baiwei=1/100;
+				if (jiecheng(gewei)+jiecheng(shiwei)+jiecheng(baiwei)==i) {
+					console.log(i);
+				}
+			}*/
+/*			编写一个函数rev用于将一个整数前后倒置。
+			例如rev(12345)将返回54321，rev(123)将返回321
+			整数位数不限制，多少位都行。*/
+/*			如果整数A 的全部约数（包括1，不包括A 本身）之和等于B，且整数B 的全部约数
+			（包括1，不包括B 本身）之和等于A，则称整数A和B是一对亲密数。
+			求3000 以内的全部亲密数。*/
+/*				function yueshuhe(a) {
+				var con = 0;
+				for(var i = 1; i < a; i++) {
+					
+					if(a % i == 0 ) {
+						con+=i;
+					}
+				}
+				return con;
+			}
+			for(var b=1;b<3000;b++){
+				var aa=yueshuhe(b);
+				if (yueshuhe(aa)==b&&yueshuhe(b)==aa&&aa>b) {
+					console.log(aa+"和"+b);
+				}
+			}*/
+			function yueshugeshu(a){
+				var count=0;
+				for (var i=1;i<a;i++) {
+					if(a%1==0){
+						count+=i;
+					}
+				}return count;
+			}
+			for (var b=1;b<3000;b++) {
+				var aa=yueshugeshu(b);
+				if(yueshugeshu(aa)==b&&yueshugeshu(b)==aa&&aa>b){
+					console.log(aa+"和"+b);
+				}
+			}
+			
+
+
+
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

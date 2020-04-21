@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.box1{
+				width: 1000px;
+				height: 142px;
+				background-image: url(img/bg_02.jpg);
+				margin:20px auto;
+				display: flex;
+			}
+			.box2{
+				width:107px;
+				height: 107px;
+				margin-top: 20px;
+				margin: 20px;
+				position: relative;
+				cursor: pointer;
+			}
+			.box3{
+				width:107px;
+				height: 107px;
+				background-image: url(img/a_1.png);
+			}
+			.owl{
+				width: 42px;
+				height:42px;
+				position: absolute;
+				top: 12%;
+				left: 29%;
+			}
+			.box3:hover{
+				background-image: url(img/a_1_h1.png);
+				animation: jiu 1s ;
+			}
+			@keyframes jiu{
+				from{transform: rotate(0deg);}
+				to{transform:rotate(360deg);}
+			}
+			p{
+				width: 68px;
+				height: 20px;
+				position: absolute;
+				top: 65%;
+				left: 20%;
+			}
+			.b2{
+				background-image: url(img/a_2.png);
+			}
+			.b2:hover{
+				background-image: url(img/a_2_h1.png);
+				animation: jiu 1s ;
+			}
+			.b3{
+				background-image: url(img/a_3.png);
+			}
+			.b3:hover{
+				background-image: url(img/a_3_h1.png);
+				animation: jiu 1s ;
+			}
+			.b4{
+				background-image: url(img/a_4.png);
+			}
+			.b4:hover{
+				background-image: url(img/a_4_h1.png);
+				animation: jiu 1s ;
+			}
+			.b5{
+				background-image: url(img/a_5.png);
+			}
+			.b5:hover{
+				background-image: url(img/a_5_h1.png);
+				animation: jiu 1s ;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<div class="box2">
+				<div class="box3"></div>
+				<img src="img/tb_1.png" class="owl"/>
+				<p>我要练车</p>
+			</div>
+			<div class="box2 ">
+				<div class="box3 b2"></div>
+				<img src="img/tb_2.png" class="owl"/>
+				<p>我要练车</p>
+			</div>
+			<div class="box2">
+				<div class="box3 b3"></div>
+				<img src="img/tb_3.png" class="owl"/>
+				<p>我要练车</p>
+			</div>
+			<div class="box2">
+				<div class="box3 b4"></div>
+				<img src="img/tb_4.png" class="owl"/>
+				<p>我要练车</p>
+			</div>
+			<div class="box2">
+				<div class="box3 b5"></div>
+				<img src="img/tb_5.png" class="owl"/>
+				<p>我要练车</p>
+			</div>
+		</div>
+	</body>
+</html>
