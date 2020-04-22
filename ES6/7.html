@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class people{
+            constructor(name){
+                this.name=name;
+            }
+            showname(){
+                console.log(this.name)
+            }
+        }
+        class programmer extends people{
+            constructor(name,age){
+                super(name);
+                this.age=age
+            }
+            showAge(){
+                console.log(this.age);
+            }
+        }
+        var people=new People("wdhic");
+        var programmer=new Programmer("dsdvc",10);
+        people.showname();
+        programmer.showname();
+        programmer.showAge();
+    </script>
+</body>
+
+</html>
