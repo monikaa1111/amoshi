@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="javascript/vue.js"></script>
+</head>
+<body>
+    <!-- v-show 根据表达式的真假 决定displays属性 -->
+    <div id="box">
+            <div v-show="isArise" style="width: 200px;height:200px;background-color: red;"></div>
+    </div>
+    <script>
+        let vm=new Vue({
+            el:'#box',
+            data:{
+                isArise:false,
+            }
+        })
+    </script>
+</body>
+</html>
