@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="javascript/vue.js"></script>
+</head>
+<body>
+    <div id="box">
+        <h2>{{aa}}</h2>
+        <h2>{{bb}}</h2>
+    </div>
+    <script>
+        let vm=new Vue({
+            el:"#box",
+            data:{
+                aa:1111,
+                bb:2222,
+            }
+        })
+        vm.$watch("aa",function(){
+            alert("aa夫人女款i人家给v你i如果v你");
+            this.bb=this.aa+10;
+        })
+        doocument.onclick=function(){
+            vm.aa=13433;
+        }
+    </script>
+</body>
+</html>

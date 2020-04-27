@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="javascript/vue.js"></script>
+    <style>
+            .hello {
+                width: 200px;
+                height: 200px;
+                background: red;
+            }
+        </style>
+</head>
+<body>
+    <div id="box">
+        <div class="hello" v-red></div>
+    </div>
+    <script>
+        Vue.directive('red',function(el){
+            el.style.position='absolute'
+            el.onmousedown=function(e){
+                var deltaX=e.clientX-el.offsetleft;
+                var deltaY=e.clientY-el.offsetTop;
+                document.onmousemove=function(e){
+                    var x=e.clientX-deltaX;
+                    var y=e.clientY-deltaY;
+                    el.style.left=x+"px";
+                    el.style.top=y+"px";
+
+                }
+                document.onmouseup=function(e){
+                    document.onmousemove=null;
+                    document.onmouseup=null;
+                }
+            }
+        })
+        let vm=new Vue({
+            el:"#box",
+            data:{
+                name:"rejinrjfckoejihruif"
+            }
+        })
+    </script>
+</body>
+</html>
